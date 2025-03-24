@@ -1,0 +1,78 @@
+/* Custom CSS for Full-page Header */
+header {
+    background: #333; /* Dark background for header */
+    color: #fff; /* White text color */
+    text-align: center;
+}
+
+/* Optional: Add a background image to the header */
+header {
+    background-image: url('your-image.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Ensure the rest of the content has proper spacing */
+section {
+    padding: 60px 0;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* About Section Styling */
+.about-section {
+    background-color: pink; /* Pink background */
+    color: #333; /* Dark text color for better contrast */
+}
+
+/* Projects Section Styling */
+.projects-section {
+    background-color: rgb(54, 54, 66); /* Navy blue background */
+    color: white; /* White text color for better contrast */
+}
+
+/* Optional: Adjust card styling inside the Projects section */
+.projects-section .card {
+    background-color: #f8f9fa; /* Light background for cards */
+    color: #333; /* Dark text color for cards */
+}
+
+.projects-section .card-title {
+    color: rgb(81, 81, 108); /* Navy blue for card titles */
+}
+
+/* Dark Background for the Section */
+.dark-bg {
+    background-color: #5d3b3b; /* Dark background */
+    color: white; /* White text color */
+    padding: 20px 0;
+}
+
+/* Pink Background for Divs */
+.pink-bg {
+    background-color: rgb(255, 228, 242); /* Pink background */
+    color: #2a1d1d; /* Dark text color */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Responsive Design for Divs */
+@media (max-width: 250px) {
+    .pink-bg {
+        margin-bottom: 5px; /* Add space between divs on smaller screens */
+    }
+}
+
+/* Image Styling */
+.img-fluid {
+    max-width: 25%;
+    height: 25%; /* Set image height to 25% */
+    border-radius: 8px; /* Rounded corners for images */
+    position: right;
+
+}
